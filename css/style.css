@@ -216,22 +216,6 @@ nav ul li a:hover {
     transition: .5s;
 }
 
-.medsos a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #ff8ba7;
-    z-index: -1;
-    transition: .5s;
-}
-
-.medsos a:hover::before {
-  width:100%;
-}
-
 
 
 /* About */
@@ -325,6 +309,7 @@ span {
 }
 
 
+
 /* Project Section */
 .project {
     display: flex ;
@@ -378,8 +363,8 @@ span {
 }
 
 
-/* Contact Section */
 
+/* Contact Section */
 .contact {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -454,6 +439,8 @@ form textarea {
     transform: scale(1.09);
     cursor: pointer;
 }
+
+
 
 /* Footer */
 .footer{
